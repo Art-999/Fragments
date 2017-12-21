@@ -17,8 +17,6 @@ public class MyExample1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_example1);
         activityLayout = findViewById(R.id.mainActivity_layout);
-
-
     }
 
     public void onClick(View view) {

@@ -15,6 +15,7 @@ public class ItemFragment extends Fragment {
     public ItemFragment(){
 
     }
+
     public static ItemFragment newInstance() {
 
         Bundle bundle = new Bundle();
@@ -24,7 +25,7 @@ public class ItemFragment extends Fragment {
         return fragment;
     }
 
-    @Nullable
+
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_item,container,false);
